@@ -19,6 +19,7 @@ A solution set is:
   [3,5]
 ]
 //此题若无全路径要求，用动态规划(类似背包问题)速度要快许多
+```c++
 class Solution {
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
@@ -43,3 +44,4 @@ public:
 	    }
     }
 };
+```

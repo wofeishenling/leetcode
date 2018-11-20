@@ -11,7 +11,7 @@ Example 3:
 Input: "abcabcabcabc"
 Output: True
 Explanation: It's the substring "abc" four times. (And the substring "abcabc" twice.)
-
+```c++
 class Solution {
 public:
     bool repeatedSubstringPattern(string s) {
@@ -34,3 +34,4 @@ public:
 	return false;
     }
 };
+```
